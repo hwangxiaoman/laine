@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/699624/forest-autumn-orange-colorful-699624.jpeg?cs=srgb&dl=trees-during-fall-699624.jpg&fm=jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+img {
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  top: 25%;
+  left: 44.8%;
+}
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  top: 53%;
+  left: 28.5%;
+  font-family: "IM Fell French Canon SC", serif;
+  text-shadow: 5px 10px 25px yellow;
+  animation: animate_box 3s linear infinite;
+}
+p {
+  position: absolute;
+  color: white;
+  font-family: "IM Fell French Canon SC", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  top: 70%;
+  left: 37.5%;
+  text-shadow: 2px 5px 15px yellow;
+}
+button {
+  height: 45px;
+  width: 130px;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 10%;
+}
+#button1 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+#button2 {
+  position: absolute;
+  top: 80%;
+  left: 52%;
+  background-color: rgb(36, 35, 34);
+  color: white;
+  cursor: pointer;
+}
+.c3:before {
+  top: 25%;
+  left: 44.8%;
+  content: "";
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  border: 3px solid transparent;
+  border: solid white;
+  border-radius: 50%;
+  animation: animateCircle 2s linear infinite;
+  opacity: 50%;
+}
+.c2:before {
+  top: 24.3%;
+  left: 44.4%;
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border: 3px solid transparent;
+  border: solid black;
+  border-radius: 50%;
+  animation: animateCircle 2s linear infinite;
+  opacity: 30%;
+}
+.c1:before {
+  top: 23.7%;
+  left: 44.1%;
+  content: "";
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  border: 3px solid transparent;
+  border: solid black;
+  border-radius: 50%;
+  animation: animateCircle 2s linear infinite;
+  opacity: 10%;
+}
+
+@keyframes animateCircle {
+  0% {
+    transform: rotate(45deg);
+    box-shadow: 0 0 0 0px white;
+  }
+  25% {
+    box-shadow: 0 0 0 5px white;
+  }
+  50% {
+    box-shadow: 0 0 0 10px white;
+  }
+  75% {
+    box-shadow: 0 0 0 5px white;
+  }
+  100% {
+    transform: rotate(405deg);
+    box-shadow: 0 0 0 0px white;
+  }
+}
+@keyframes animate_box {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
