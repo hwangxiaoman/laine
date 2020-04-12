@@ -36,6 +36,30 @@ p {
   top: 70%;
   left: 37.5%;
   text-shadow: 2px 5px 15px yellow;
+  animation: type 10s steps(41) infinite, blinker 0.8s infinite ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 41ch;
+    padding-right: 10px;
+  }
+  100% {
+    width: 41ch;
+    padding-right: 10px;
+  }
+}
+@keyframes blinker {
+  0% {
+    border-right: 2px solid yellow;
+  }
+  100% {
+    border-right: transparent;
+  }
 }
 button {
   height: 45px;
