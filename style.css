@@ -158,18 +158,18 @@ button {
   .container {
     position: absolute;
     top: 15%;
-    left: 37%;
+    left: 35%;
   }
   h1 {
     top: 40%;
-    left: 2%;
+    left: 1%;
     text-align: center;
   }
   p {
     top: 70%;
-    left: 13%;
+    left: 9%;
   }
   #button1 {
-    left: 20%;
+    left: 10%;
   }
 }
