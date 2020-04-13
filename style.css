@@ -39,7 +39,7 @@ p {
   top: 70%;
   left: 37.5%;
   text-shadow: 2px 5px 15px yellow;
-  animation: type 10s steps(41) infinite, blinker 0.8s infinite ease;
+  animation: type 10s steps(50) infinite, blinker 0.8s infinite ease;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -48,11 +48,11 @@ p {
     width: 0ch;
   }
   50% {
-    width: 41ch;
+    width: 50ch;
     padding-right: 10px;
   }
   100% {
-    width: 41ch;
+    width: 50ch;
     padding-right: 10px;
   }
 }
@@ -171,7 +171,8 @@ button {
   p {
     position: absolute;
     top: 70%;
-    left: -3px;
+    left: 0%;
+    font-size: 10px;
   }
   #button1 {
     left: 10%;
