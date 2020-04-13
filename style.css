@@ -166,6 +166,7 @@ button {
     text-align: center;
   }
   p {
+    position: absolute;
     top: 70%;
     left: 1px;
   }
