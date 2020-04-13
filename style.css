@@ -154,7 +154,7 @@ button {
     transform: translateY(10px);
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     position: absolute;
     top: 15%;
