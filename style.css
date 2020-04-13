@@ -171,7 +171,7 @@ button {
   p {
     position: absolute;
     top: 70%;
-    left: 6%;
+    left: 5%;
     font-size: 13px;
     animation: type 10s steps(44) infinite, blinker 0.8s infinite ease;
   }
