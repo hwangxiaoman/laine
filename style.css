@@ -154,3 +154,22 @@ button {
     transform: translateY(10px);
   }
 }
+@media (max-width: 600px) {
+  .container {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+  }
+  h1 {
+    top: 40%;
+    left: 2%;
+    text-align: center;
+  }
+  p {
+    top: 70%;
+    left: 13%;
+  }
+  #button1 {
+    left: 20%;
+  }
+}
