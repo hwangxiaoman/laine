@@ -172,19 +172,19 @@ button {
     position: absolute;
     top: 70%;
     left: 2%;
-    font-size: 15px;
-    animation: type 10s steps(41) infinite, blinker 0.8s infinite ease;
+    font-size: 13px;
+    animation: type 10s steps(44) infinite, blinker 0.8s infinite ease;
   }
   @keyframes type {
     0% {
       width: 0ch;
     }
     50% {
-      width: 41ch;
+      width: 44ch;
       padding-right: 10px;
     }
     100% {
-      width: 41ch;
+      width: 44ch;
       padding-right: 10px;
     }
   }
