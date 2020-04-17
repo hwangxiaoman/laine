@@ -9,8 +9,18 @@
       href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap"
       rel="stylesheet"
     />
+    <script>
+      function changebg2() {
+        document.getElementById("mainchanger").style.backgroundImage =
+          "url(image.jpg)";
+      }
+      function changebg1() {
+        document.getElementById("mainchanger").style.backgroundImage =
+          "url(https://images.pexels.com/photos/699624/forest-autumn-orange-colorful-699624.jpeg?cs=srgb&dl=trees-during-fall-699624.jpg&fm=jpg)";
+      }
+    </script>
   </head>
-  <body>
+  <body id="mainchanger">
     <h1>Laine Alexis S. Martinez</h1>
     <div class="container">
       <div class="c1">
@@ -25,7 +35,7 @@
       </div>
     </div>
     <p>student | designer | artist</p>
-    <button id="button1">Original</button>
-    <button id="button2">Dark Mode</button>
+    <button id="button1" onclick="changebg1()">Original</button>
+    <button id="button2" onclick="changebg2()">Dark Mode</button>
   </body>
 </html>

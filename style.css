@@ -27,7 +27,7 @@ h1 {
   top: 53%;
   left: 28.5%;
   font-family: "IM Fell French Canon SC", serif;
-  text-shadow: 5px 10px 25px yellow;
+  text-shadow: 5px 10px 25px #b58502;
   animation: animate_box 3s linear infinite;
 }
 p {
